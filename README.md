@@ -1,13 +1,19 @@
 # 🎬 Netflix Data Analysis
 
-This project performs exploratory data analysis (EDA) on the Netflix dataset to uncover trends, patterns, and insights related to content distribution.
+This project performs Exploratory Data Analysis (EDA) on the Netflix dataset to uncover trends, patterns, and insights related to content distribution.
 
 ---
 
-## 📌 Objectives
+## 📌 Project Overview
+The goal of this project is to analyze Netflix data and extract meaningful insights using Python. It focuses on understanding content types, geographical distribution, and trends over time.
+
+---
+
+## 🎯 Objectives
 - Analyze distribution of Movies vs TV Shows  
 - Identify top countries producing Netflix content  
 - Understand trends in content addition over time  
+- Perform data cleaning and preprocessing  
 
 ---
 
@@ -30,12 +36,12 @@ This project performs exploratory data analysis (EDA) on the Netflix dataset to 
 ## 📊 Key Insights
 - Movies dominate Netflix content compared to TV Shows  
 - A few countries contribute the majority of titles  
-- Content addition has grown significantly over recent years  
+- Content addition has increased significantly over recent years  
 
 ---
 
 ## ▶️ How to Run
-1. Download the dataset (`netflix_titles.csv`)  
-2. Install required libraries:
-   ```bash
-   pip install pandas matplotlib
+
+### 1. Install dependencies
+```bash
+pip install pandas matplotlib
